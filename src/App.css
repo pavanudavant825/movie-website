@@ -67,6 +67,7 @@
     width: 330px;
     color: white;
     background-color: rgba(0, 0, 0, 0.884);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.526);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -115,10 +116,16 @@
     margin-top: 30px;
     width: 100%;
     text-align: center;
-    background-color: black;
-    color: red;
+    background-color:red;
+    color: white;
 }
 @media (max-width:650px){
+    .title{
+        height: 100%;
+    }
+    .para{
+        height: 100%;
+    }
     .input-box input{
         height: 45px;
         width: 300px;
@@ -132,6 +139,12 @@
 }
 
 @media (max-width:425px){
+    .title{
+        height: 100%;
+    }
+    .para{
+        height: 100%;
+    }
     .input-box input{
         height: 45px;
         width: 270px;
@@ -144,6 +157,12 @@
     }
 }
 @media (max-width:375px){
+    .title{
+        height: 100%;
+    }
+    .para{
+        height: 100%;
+    }
     .input-box input{
         height: 45px;
         width: 210px;
@@ -156,6 +175,12 @@
     }
 }
 @media (max-width:320px){
+    .title{
+        height: 100%;
+    }
+    .para{
+        height: 100%;
+    }
     .input-box input{
         height: 45px;
         width: 210px;
