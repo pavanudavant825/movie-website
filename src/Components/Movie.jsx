@@ -34,7 +34,7 @@ const Movie = () => {
     setRecords(filteredMovies);
    }
    else{
-    setRecords(records);
+    setRecords(movies);
    }
   }
 
